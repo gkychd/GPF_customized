@@ -1,0 +1,21 @@
+sensor_model: 64
+
+sensor_height: 1.723
+
+num_seg: 1
+
+num_iter: 3
+
+num_lpr: 20
+
+th_seeds: 1.2
+
+th_dist: 0.3
+
+data_path: /media/gky/Elements5/data_all/kitti数据集/semantickitti/dataset/sequences/10
+
+pcd_savepath: /media/gky/Elements5/数据集/results/ground_seg/GPF/pcd/10
+output_filename: /media/gky/Elements5/数据集/results/ground_seg/GPF/csv/10/GPF.csv
+
+save_flag: true
+save_csv: true

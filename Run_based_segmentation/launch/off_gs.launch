@@ -1,0 +1,10 @@
+<launch>
+
+  <rosparam command="load" file="$(find points_preprocessor_usi)/launch/GPF.yaml"/>
+
+  <node name="GPF" pkg="points_preprocessor_usi" type="offline_gs" output="screen"/>
+
+
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find points_preprocessor_usi)/rviz/patchwork_viz.rviz"/>
+
+</launch>
